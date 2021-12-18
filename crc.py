@@ -113,11 +113,11 @@ def main():
     numR = int(sys.argv[1])
     errores = 0
     divisor = '10101'
-    for i in range (0, 1500):
+    for i in range (0, 1000):
         aux =  validador('test.txt', divisor, 4, numR, i)
         if ( aux == False):
             errores=errores+1
-    print ("\n\nErrores al momento de mandar 1500 = ", errores, "\n")
+    print ("\n\nErrores al momento de mandar 1000 = ", errores, "\n")
 
 
 
